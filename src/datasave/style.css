@@ -1,0 +1,50 @@
+/* style.css */
+
+/* Apply some basic styling to the form */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style labels for the form fields */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style text inputs */
+  input[type='text'] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style radio buttons and checkboxes */
+  input[type='radio'],
+  input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  
+  /* Style the 'Save' and 'Cancel' buttons */
+  input[type='button'],
+  input[type='reset'] {
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  input[type='button']:hover,
+  input[type='reset']:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

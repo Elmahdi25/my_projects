@@ -1,0 +1,47 @@
+.home-body {
+    background-image: url('/src/form/images/background.jpg');
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: #333; /* Text color */
+    text-align:center;
+    font-size: 36px;
+    padding: 20px;
+  }
+  p {
+    font-family: Arial, sans-serif; /* Choose your preferred font family */
+    color: #666; /* Text color */
+    text-align: center;
+    font-size: 18px; /* Adjust font size as needed */
+    padding: 20px;
+    max-width: 800px; /* Limit the width to improve readability */
+    margin: 0 auto; /* Center-align the text within the body */
+  }
+  /* In your style/StyleHome.css */
+  .link-seemore {
+    text-decoration: none;
+    color: #020202;
+    font-size: 40px; /* Adjust font size as needed */
+    margin-top: 20px; /* Adjust spacing as needed */
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid ;
+    border-radius: 5px; /* Add a transparent border */
+    transition: color 0.2s, border-color 0.2s; /* Add a transition for color and border-color */
+  }
+  
+  .link-seemore:hover {
+    color: #b47e1a;
+    border-color: #b37400; /* Change border color on hover */
+  }
+  
+  

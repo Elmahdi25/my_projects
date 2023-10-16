@@ -1,0 +1,156 @@
+/* style/BuyForm.css */
+
+.BuyForm {
+    background-color: #f8f1f1;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #4bb52d;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .BuyForm h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .BuyForm form div {
+    margin-bottom: 5px;
+  }
+  
+  .BuyForm label {
+    font-family:'Times New Roman', Times, serif;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    font-weight:200;
+  }
+  
+  .BuyForm input[type="text"],
+  .BuyForm input[type="email"],
+  .BuyForm input[type="password"],
+  .BuyForm textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  .BuyForm select{
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  .BuyForm input[type="checkbox"],
+  .BuyForm input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .BuyForm input[type="range"] {
+    width: 100%;
+  }
+  
+
+  /* Add these styles to your BuyForm.css */
+
+.BuyForm input[type="button"],
+.BuyForm input[type="reset"] {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.BuyForm input[type="reset"] {
+  background-color: #ccc;
+}
+
+.BuyForm input[type="button"]:hover,
+.BuyForm input[type="reset"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the "Go back to Home" link */
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Styling for the "Go back to Store" link */
+.stor-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+}
+
+.stor-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+/* BuyForm.css */
+/* Add these styles for your table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for the "You gonna see" column */
+td:nth-child(6) {
+  font-style: italic;
+  color: #555;
+}
+
+/* Center the "thanks for" column text */
+td:nth-child(7) {
+  text-align: center;
+}
+
+/* Add some spacing around the table */
+table {
+  margin-top: 20px;
+}
+
